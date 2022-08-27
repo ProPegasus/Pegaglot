@@ -1,4 +1,4 @@
-# Make sure to add your discord api token in line number 82  
+# Make sure to add your discord api token in line number 99  
 from googletrans import Translator
 import discord
 import emoji
