@@ -1,5 +1,6 @@
 # Pegaglot
 ## A simple python based discord translation bot that works by detecting reactions on messages
+## [Add to your server](https://discord.com/api/oauth2/authorize?client_id=1012428802749648946&permissions=431242030144&scope=bot)
 
 It uses googletrans python library, rest-countries v3 api, emoji library, langcodes library and ofcoourse discord.py
 
