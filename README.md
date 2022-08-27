@@ -4,8 +4,8 @@
 
 It uses googletrans python library, rest-countries v3 api, emoji library, langcodes library and ofcoourse discord.py
 
-You can find the specific versions I have used in the requirements.txt file. Make sure to use the googletrans version 3.1.0a0 
-cause the other versions has a bug
+You can find the specific versions that I have used in the requirements.txt file. Make sure to use the googletrans version 3.1.0a0 
+cause the other versions have a bug
 
 If you are planning to make your own version out of this, make sure to add your discord api token in line 99 of the main.py file
 
