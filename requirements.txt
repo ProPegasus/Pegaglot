@@ -1,0 +1,5 @@
+discord.py==2.0.0
+googletrans==3.1.0a0
+requests
+emoji==2.0.0
+langcodes==3.3.0
