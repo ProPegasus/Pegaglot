@@ -78,4 +78,4 @@ async def on_reaction_add(reaction, user):
     await reaction.message.reply(content=trns_msg)
 
 
-client.run('MTAxMjQyODgwMjc0OTY0ODk0Ng.GhEaK0.3juQQlpSMWj9qm5cK8aJ5RAhIxVsxb_XvZs7eE')
+client.run('YOUR DISCORD TOKEN')
