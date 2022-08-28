@@ -17,3 +17,7 @@ If you would like to give the bot a try or help me find bugs please feel free to
 It doesn't need administrative priviliges, It only needs permission to view the channle it has to work on, ability to read and send messages, reaction
 
 It's hosted on a free hosting platform so please don't hit it too hard ^^ 
+
+##Usage
+
+Add a flag reaction to the message you want the bot to translate. It will reply to that message translating the message text to specified flag.
