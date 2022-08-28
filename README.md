@@ -18,6 +18,6 @@ It doesn't need administrative priviliges, It only needs permission to view the 
 
 It's hosted on a free hosting platform so please don't hit it too hard ^^ 
 
-##Usage
+## Usage
 
 Add a flag reaction to the message you want the bot to translate. It will reply to that message translating the message text to specified flag.
