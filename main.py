@@ -88,7 +88,7 @@ async def on_reaction_add(reaction, user):
     
 #       Translating using googletrans translator
     translation = translator.translate(text=msg, dest=lan)
-#       Getting the username of the message author
+#       Getting the username of the one that added the reaction
     display_name = user.display_name
 #       Styling the message and adding the name of the user that requested the translation at the end of message
     trns_msg = '**' + translation.text + '**' + '\n\n' + 'requested by ' + display_name
