@@ -110,10 +110,14 @@ async def on_raw_reaction_add(payload):
     translation = translator.translate(text=msg_content, dest=lan)
     # Getting the username of the one that added the reaction
     display_name = payload.member.display_name
-    # Styling the message and adding the name of the user that requested the translation at the end of message
-    trns_msg = '**' + translation.text + '**' + '\n\n' + 'requested by ' + display_name
+    # Sending an embedded message that looks nice and prepending the icon, name of message author 
+    # and appending the name of the user that requested the trasnlaion
+    # Clicking on author's name will jump to the translated message
+    embed = discord.Embed(title=translation.text, color=discord.Colour.random(), type="rich")
+    embed.set_author(name=message_obj.author.display_name, url=message_obj.jump_url ,icon_url=message_obj.author.display_avatar.url)
+    embed.set_footer(text="Requested by " + display_name)
     # Sending the message
-    await message_obj.reply(content=trns_msg)
+    await message_obj.channel.send(embed=embed)
 
 
 client.run('YOUR DISCORD TOKEN') # <---- Your discord api token here
