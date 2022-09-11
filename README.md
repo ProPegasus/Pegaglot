@@ -12,7 +12,7 @@ If you are planning to make your own version out of this, make sure to add your 
 This is still WIP.
 
 If you would like to give the bot a try or help me find bugs please feel free to add the bot to your server using the following link:
-[Add my translator to your server](https://discord.com/api/oauth2/authorize?client_id=1012428802749648946&permissions=431242030144&scope=bot)
+[Add my translator to your server](https://discord.com/api/oauth2/authorize?client_id=1012428802749648946&permissions=429497252928&scope=bot)
 
 It doesn't need administrative priviliges, It only needs permission to view the channle it has to work on, ability to read and send messages, reaction
 
