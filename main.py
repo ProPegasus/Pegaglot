@@ -113,7 +113,10 @@ async def on_raw_reaction_add(payload):
     # Sending an embedded message that looks nice and prepending the icon, name of message author 
     # and appending the name of the user that requested the trasnlaion
     # Clicking on author's name will jump to the translated message
-    embed = discord.Embed(title=translation.text, color=discord.Colour.random(), type="rich")
+    if len(translation.text) > 256:
+        embed = discord.Embed(title="", description=translation.text, color=discord.Colour.random(), type="rich")
+    else:
+        embed = discord.Embed(title=translation.text, color=discord.Colour.random(), type="rich")
     embed.set_author(name=message_obj.author.display_name, url=message_obj.jump_url ,icon_url=message_obj.author.display_avatar.url)
     embed.set_footer(text="Requested by " + display_name)
     # Sending the message
